@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Prompt:wght@300;500;700&display=swap");
+
+:root {
+
+    /* Colors */
+    --background-color: ;
+}
+
+body {
+    font-family: 'Prompt', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    background: #000
+}
+
+section {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .sign-in {
+    position: absolute;
+    width: 400px;
+    background: #222;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+section .sign-in .content {
+    position: relative;
+}
